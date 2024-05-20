@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParadigmaOOP1_0063", "Parad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Agregasi.h", "..\Agregasi.h\Agregasi.h.vcxproj", "{FF1B703E-72B4-4364-8707-6BFB91EC8688}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E612535-ECE9-4FCE-9666-86A53C856E01}"
+	ProjectSection(SolutionItems) = preProject
+		Anak.h = Anak.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

@@ -1,10 +1,11 @@
 #include <iostream>
+#i
 using namespace std;
 
 class mahasiswa {
 private:
 
-	cons int id;
+	const int id;
 	string nama;
 	float nilai;
 
