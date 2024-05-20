@@ -11,7 +11,7 @@ public:
 	}
 	~ibu() {
 		cout << "Ibu \"" << nama << "\" tidak ada\n";
- 	}
+	}
 	void tambahAnak(anak*);
 	void cetakanak();
 
@@ -22,4 +22,3 @@ void ibu::tambahAnak(anak* pAnak) {
 void ibu::cetakanak() {
 	cout << "Daftar anak dari ibu \"" << this->nama << "\";
 }
-
