@@ -21,4 +21,9 @@ void ibu::tambahAnak(anak* pAnak) {
 }
 void ibu::cetakAnak() {
 	cout << "Daftar anak dari ibu \"" << this->nama << "\";
+	for (auto& a : daftar_anak) {
+		cout << a->nama << "\n";
+	}
+	cout << endl;
 }
+#endif

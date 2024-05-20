@@ -7,19 +7,10 @@ public:
 	vector<anak*> daftar_anak;
 
 	anak(string pNama) :nama(pNama) {
-		cout << "Ibu" \"" << nama << "\" ada\n";
+		cout << "Anak" \"" << nama << "\" ada\n;
 	}
-	~ibu() {
-		cout << "Ibu \"" << nama << "\" tidak ada\n";
- 	}
-	void tambahAnak(anak*);
-	void cetakanak();
+	~anak() {
+		cout << "Anak \"" << nama << "\" tidak ada\n;
+	}
 
-};
-void ibu::tambahAnak(anak* pAnak) {
-	daftar_anak.push_back(pAnak);
-}
-void ibu::cetakanak() {
-	cout << "Daftar anak dari ibu \"" << this->nama << "\";
-}
 
