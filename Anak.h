@@ -1,12 +1,12 @@
 #ifndef IBU_H
 #define IBU_H
 
-class ibu {
+class anak {
 public:
 	string nama;
 	vector<anak*> daftar_anak;
 
-	ibu(string pNama) :nama(pNama) {
+	anak(string pNama) :nama(pNama) {
 		cout << "Ibu" \"" << nama << "\" ada\n";
 	}
 	~ibu() {
