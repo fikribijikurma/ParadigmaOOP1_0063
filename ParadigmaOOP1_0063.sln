@@ -8,16 +8,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Agregasi.h", "..\Agregasi.h\Agregasi.h.vcxproj", "{FF1B703E-72B4-4364-8707-6BFB91EC8688}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E612535-ECE9-4FCE-9666-86A53C856E01}"
-	ProjectSection(SolutionItems) = preProject
-		Anak.h = Anak.h
-		AnakIbu.h = AnakIbu.h
-		Ibu.h = Ibu.h
-		jantung.h = jantung.h
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KOMPOSISI", "..\KOMPOSISI\KOMPOSISI.vcxproj", "{07B75843-2954-4BF5-A8C6-CA8529085AA8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asosiasi", "..\Asosiasi\Asosiasi.vcxproj", "{8C921A64-406B-4248-B96A-398001682391}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance", "..\Inheritance\Inheritance.vcxproj", "{08228C34-37E0-473C-8ADC-DFB846CB1EEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +55,14 @@ Global
 		{8C921A64-406B-4248-B96A-398001682391}.Release|x64.Build.0 = Release|x64
 		{8C921A64-406B-4248-B96A-398001682391}.Release|x86.ActiveCfg = Release|Win32
 		{8C921A64-406B-4248-B96A-398001682391}.Release|x86.Build.0 = Release|Win32
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Debug|x64.ActiveCfg = Debug|x64
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Debug|x64.Build.0 = Debug|x64
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Debug|x86.Build.0 = Debug|Win32
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Release|x64.ActiveCfg = Release|x64
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Release|x64.Build.0 = Release|x64
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Release|x86.ActiveCfg = Release|Win32
+		{08228C34-37E0-473C-8ADC-DFB846CB1EEC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
